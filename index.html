@@ -1,0 +1,465 @@
+
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<html lang="">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width-service-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<title> FSCES Student Registration Form  </title>
+</head>
+<body>
+
+
+	<div class="d-flex justify-content-center">
+
+
+		<div class="Container">
+
+			
+
+			<h2>FSCES Student Registration Form-2026 (Koya Circle) </h2>
+
+			<div class="form-container">
+
+			<form method="post" action="https://script.google.com/macros/s/AKfycbyKBYUbD1UfVZ-aBy_PAskMbZ2qXxfPYEZtIRuXeqtUnLWJ1t_CGwO9y7ktPTU4JvNUng/exec" name="contactform" id="contactform">
+
+	
+				
+			
+				<select class="Class" name="Job Category" id="Job Category">
+						<option>Please select applyer Designation</option>
+						<option>Area Manager (FSCES)</option>
+						<option>District Manager (FSCES)</option>
+						
+										
+				</select>
+
+				<h4>.</h4>
+
+			  		<input type="text" class="form-control" placeholder="Enter Candidate Name" name="Candidate Name" id="Candidate Name"/>
+
+                <h4>.</h4>
+
+                    <input type="text" class="form-control" placeholder=" Enter Adhar no" name="Adhar no" id="Adhar no"/>
+
+                <h4>.</h4>
+
+                    <input type="text" class="form-control" placeholder=" Date of Birth" name="DOB" id="DOB"/>
+
+                <h4>.</h4>
+
+                    <input type="text" class="form-control" placeholder=" Enter email " name="email" id="email"/>
+			  		
+			  	
+				</select>
+				
+
+			  	 	<h4>.</h4>
+				<select class="Class" name="Time" id="Time">
+
+						<option>Please Select Time</option>
+						<option>(Sunday) 09:00 Am - 06:00 Pm</option>
+
+						<option>(Monday) 09:00 Am - 06:00 Pm</option>
+						<option>(Tuesday) 09:00 Am - 06:00 Pm</option>
+						<option>(Wednes day) 09:00 Am - 06:00 Pm</option>
+						<option>(Thurse day) 09:00 Am - 06:00 Pm</option>
+						<option>(Fry day) 09:00 Am - 06:00 Pm</option>
+						<option>(Sature day) 09:00 Am - 06:00 Pm</option>
+						
+						
+				</select>
+
+				<h4>.</h4>
+					
+				 <input type="text" class="form-control" placeholder=" Enter Mobile No " name="Enter Mobile No" id="Enter Mobile No"/>
+			 
+				<h4>.</h4>
+
+                 <h4>.</h4>
+                    
+                 <input type="text" class="form-control" placeholder="Apply Roll No " name="Roll No" id="Roll No"/>
+             
+                <h4>.</h4>
+
+                <h4>.</h4>
+                    
+                 <input type="text" class="form-control" placeholder=" Candidate full address " name="Candidate full address" id="Candidate full address"/>
+             
+                <h4>.</h4>
+
+
+			  	<h4>.</h4>
+				<select class="Class" name="Date" id="Date">
+
+						<option>Please Select apply date</option>
+						
+						<option>19/12/2025</option>
+						<option>20/12/2025</option>
+						<option>21/12/2025</option>
+						<option>22/12/2025</option>
+						<option>23/12/2025</option>
+						<option>24/12/2025</option>
+						<option>25/12/2025</option>
+						<option>26/12/2025</option>
+						<option>27/12/2025</option>
+						<option>28/12/2025</option>
+						<option>29/12/2025</option>
+						<option>30/12/2025</option>
+                        <option>01/01/2026</option>
+                        <option>02/01/2026</option>
+                        <option>03/01/2026</option>
+                        <option>04/01/2026</option>
+                        <option>05/01/2026</option>
+                        <option>06/01/2026</option>
+                        <option>07/01/2026</option>
+                        <option>08/01/2026</option>
+                        <option>09/01/2026</option>
+                        <option>10/01/2026</option>
+                        <option>11/01/2026</option>
+                        <option>12/01/2026</option>
+                        <option>13/01/2026</option>
+                        <option>14/01/2026</option>
+                        <option>15/01/2026</option>
+                        <option>16/01/2026</option>
+                        <option>17/01/2026</option>
+                        <option>18/01/2026</option>
+						
+				</select>
+
+				
+				<h3>.</h3>
+
+				
+			  	</div>
+
+
+
+	
+	 <div class="clock">
+        <div>
+            <span id="hour">00</span>
+            <span class="text">Hours</span>
+        </div>
+
+        <div>
+            <span id="minutes">00</span>
+            <span class="text">Minutes</span>
+        </div>
+
+        <div>
+            <span id="seconds">00</span>
+            <span class="text">Seconds</span>
+        </div>
+
+        <div>
+            <span id="ampm">AM</span>
+        </div>
+    </div>
+
+    <script src="./scriept.js"></script>
+</body>
+</html>
+
+		
+
+				<h3>.</h3>
+
+					<input type="submit" value="Register" class="button button-primary" colour=blue id="submit" />
+				</span>
+
+		
+
+				
+
+			</form>	
+		</div>	
+	</div>
+</div>
+
+<script>
+			const scriptURL = 'https://script.google.com/macros/s/AKfycbyKBYUbD1UfVZ-aBy_PAskMbZ2qXxfPYEZtIRuXeqtUnLWJ1t_CGwO9y7ktPTU4JvNUng/exec'
+			const form = document.forms['contactform']
+		  
+			form.addEventListener('submit', e => {
+			  e.preventDefault()
+			  fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+				.then(response => alert("Thank you! your form is submitted successfully." ))
+				.then(() => {  window.location.reload(); })
+				.catch(error => console.error('Error!', error.message))
+			})
+		  </script>
+
+
+    <script>
+        function preventFormSubmit() {
+                var forms = document.querySelectorAll('form');
+                for (var i = 0; i < forms.length; i++) {
+                    forms[i].addEventListener('submit', function (event) {
+                        event.preventDefault();
+                    });
+                }
+            }
+            window.addEventListener('load', preventFormSubmit);
+            function handleFormSubmit() {
+                var formdata = $('#myForm').serializeArray()
+                formdata.push({
+                  name: 'myfile',
+                  value: myfile
+                })
+                google.script.run.withSuccessHandler(success).processForm(formdata);
+            }
+            function success(){
+                 document.getElementById("myForm").reset()
+                 Swal.fire({
+                  position: 'center',
+                  icon: 'success',
+                  title: 'YOUR DATA HAS BEEN SUBMITED!',
+                  showConfirmButton: false,
+                  timer: 1500
+                })
+            }
+        var myfile ={},file, reader = new FileReader();
+      reader.onloadend = function(e) {
+          myfile.data = e.target.result
+          myfile.name = file.name
+          console.log(myfile)
+      };
+     $('#file').change(function(){
+       file = $('#file')[0].files[0]
+        reader.readAsDataURL(file);
+     })
+    </script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>   
+
+    <script>  var countrySateCityinfo = {
+    Assam: {
+        "Kamrup1Rural": {
+
+            Nalbari: 
+                    ["01","02","03", "04", "05", "06", "07", "08", "09", "10"],
+
+            Kamrup1Rural: 
+                    ["01","02","03", "04", "05", "06", "07", "08", "09", "10", "11","12", "Rangia"],
+
+            Kamrup2Metro: 
+                    ["01","02","03", "04", "05", "06", "07", "08", "09", "10"],
+
+            Nagaon: 
+                    ["01","02","03", "04", "05", "06", "07", "08", "09", "10"],
+
+            Dhuburi: 
+                    ["01","02","03", "04", "05", "06", "07", "08", "09", "10"],
+
+            Barpeta: 
+                    ["01","02","03", "04", "05", "06", "07", "08", "09", "10"],
+
+            Udalguri: 
+                     ["01","02","03", "04", "05", "06", "07", "08", "09", "10"],
+
+            Lakhimpur: 
+                    ["01","02","03", "04", "05", "06", "07", "08", "09", "10"],
+
+            Sibsagar: 
+                    ["01","02","03", "04", "05", "06", "07", "08", "09", "10"],
+
+            Tinsukia: 
+                    ["01","02","03", "04", "05", "06", "07", "08", "09", "10"],
+
+            Majuli: 
+                    ["01","02","03", "04", "05", "06", "07", "08", "09", "10"],
+
+            Charaideo: 
+                    ["01","02","03", "04", "05", "06", "07", "08", "09", "10"],
+
+            Sonitpur: 
+                    ["01","02","03", "04", "05", "06", "07", "08", "09", "10"],
+
+            Dhemaji: 
+                    ["01","02","03", "04", "05", "06", "07", "08", "09", "10"],
+
+            Biswanath: 
+                    ["01","02","03", "04", "05", "06", "07", "08", "09", "10"],
+
+            Darrang: 
+                    ["01","02","03", "04", "05", "06", "07", "08", "09", "10"],
+
+            Golaghat: 
+                    ["01","02","03", "04", "05", "06", "07", "08", "09", "10"],
+
+            Kokrajhar: 
+                    ["01","02","03", "04", "05", "06", "07", "08", "09", "10"],
+
+            Goalpara: 
+                    ["01","02","03", "04", "05", "06", "07", "08", "09", "10"],
+
+            Bonaigaon: 
+                    ["01","02","03", "04", "05", "06", "07", "08", "09", "10"],
+
+            Jorhat: 
+                    ["01","02","03", "04", "05", "06", "07", "08", "09", "10"],
+
+            Dibrugarh: 
+                    ["01","02","03", "04", "05", "06", "07", "08", "09", "10"],
+
+            Karimganj: 
+                    ["01","02","03", "04", "05", "06", "07", "08", "09", "10"],
+
+            Morigaon: 
+                    ["01","02","03", "04", "05", "06", "07", "08", "09", "10"],
+
+            Hojai: 
+                    ["01","02","03", "04", "05", "06", "07", "08", "09", "10"],
+
+            SouthSalmara: 
+                    ["01","02","03", "04", "05", "06", "07", "08", "09", "10"],
+
+            Bajali: 
+                    ["01","02","03", "04", "05", "06", "07", "08", "09", "10"],
+
+            Chirang: 
+                    ["01","02","03", "04", "05", "06", "07", "08", "09", "10"],
+
+            Tamolpur: 
+                    ["01","02","03", "04", "05", "06", "07", "08", "09", "10"],
+
+            Baksa: 
+                    ["01","02","03", "04", "05", "06", "07", "08", "09", "10"]
+        },
+        Nalbari: {
+            Borigog Banbhag: ["7000", "7520"],
+            Pub Nalbari: ["7250", "7334"],
+            Burnie: ["7320", "7315"]
+        }
+    },
+    Germany: {
+        Bavaria: {
+            Munich: ["80331", "80333", "80335"],
+            Numemberg: ["90402", "90403", "90404"]
+        },
+        Hessen: {
+            Frankfurt: ["60306", "60309", "60310"],
+            Surat: ["55246", "55247", "55248", "55249"]
+        }
+    },
+
+    Canada: {
+        Alberta: {
+            Calgary: ["8033", "8333", "8035"],
+            Edmonton: ["9040", "9403", "9040"]
+        },
+        Manitoba: {
+            Brandon: ["6030", "6030"],
+            Winnipeg: ["5524", "5547", "5248"]
+        }
+    }
+    
+}
+
+window.onload = function(){
+    const selectCountry = document.getElementById('country'),
+        selectState = document.getElementById('state'),
+        selectCity = document.getElementById('city'),
+        selectZip = document.getElementById('zip'),
+        selects = document.querySelectorAll('select')
+
+        selectState.disabled = true
+        selectCity.disabled = true
+        selectZip.disabled = true
+
+        selects.forEach(select => {
+            if(select.disabled == true){
+                select.style.cursor = "auto"
+            }
+            else{
+                select.style.cursor = "pointer"
+            }
+        })
+
+        for(let country in countrySateCityinfo){
+            // console.log(country);
+            selectCountry.options[selectCountry.options.length] = new Option(country, country)
+        }
+
+
+        // country change
+        selectCountry.onchange = (e) =>{
+            
+            selectState.disabled = false
+            selectCity.disabled = true
+            selectZip.disabled = true
+
+            selects.forEach(select => {
+                if(select.disabled == true){
+                    select.style.cursor = "auto"
+                }
+                else{
+                    select.style.cursor = "pointer"
+                }
+            })
+
+            selectState.length = 1
+            selectCity.length = 1
+            selectZip.length = 1
+
+            for(let state in countrySateCityinfo[e.target.value]){
+                // console.log(state);
+                selectState.options[selectState.options.length] = new Option(state, state)
+            }
+        }
+
+        // state change
+        selectState.onchange = (e) =>{
+            selectCity.disabled = false
+            selectZip.disabled = true
+
+            selects.forEach(select => {
+                if(select.disabled == true){
+                    select.style.cursor = "auto"
+                }
+                else{
+                    select.style.cursor = "pointer"
+                }
+            })
+
+            selectCity.length = 1
+            selectZip.length = 1
+
+            for(let city in countrySateCityinfo[selectCountry.value][e.target.value]){
+                // console.log(city);
+                selectCity.options[selectCity.options.length] = new Option(city, city)
+            }
+        }
+
+        // change city
+        selectCity.onchange = (e) =>{
+            selectZip.disabled = false
+
+            selects.forEach(select => {
+                if(select.disabled == true){
+                    select.style.cursor = "auto"
+                }
+                else{
+                    select.style.cursor = "pointer"
+                }
+            })
+            
+            selectZip.length = 1
+
+            let zips = countrySateCityinfo[selectCountry.value][selectState.value][e.target.value]
+            
+            for(let i=0; i<zips.length; i++){
+                selectZip.options[selectZip.options.length] = new Option(zips[i], zips[i])
+            }
+        }
+}
+
+
+</script>
+
+</body>
+</html>
+
+
